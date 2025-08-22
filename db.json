@@ -1,0 +1,163 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "titulo": "Error en login",
+      "descripcion": "Los usuarios no pueden iniciar sesión",
+      "estado": "Abierto",
+      "prioridad": "Alta",
+      "fechaCreacion": "2024-08-10T10:30:00Z",
+      "fechaActualizacion": "2024-08-10T10:30:00Z",
+      "asignadoA": "juan.perez@tuboleta.com",
+      "etiquetas": [
+        "backend",
+        "auth",
+        "crítico"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Mejora en UI",
+      "descripcion": "Actualizar diseño del header",
+      "estado": "En Progreso",
+      "prioridad": "Media",
+      "fechaCreacion": "2024-08-12T14:15:00Z",
+      "fechaActualizacion": "2024-08-13T09:20:00Z",
+      "asignadoA": "maria.garcia@tuboleta.com",
+      "etiquetas": [
+        "frontend",
+        "diseño"
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Integrar pasarela de pagos",
+      "descripcion": "Conectar API de PayU para procesar pagos",
+      "estado": "Abierto",
+      "prioridad": "Alta",
+      "fechaCreacion": "2024-08-14T08:45:00Z",
+      "fechaActualizacion": "2024-08-14T08:45:00Z",
+      "asignadoA": "carlos.mendez@tuboleta.com",
+      "etiquetas": [
+        "backend",
+        "pagos"
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Bug en reporte de ventas",
+      "descripcion": "Los totales no coinciden en el dashboard",
+      "estado": "En Progreso",
+      "prioridad": "Alta",
+      "fechaCreacion": "2024-08-16T11:10:00Z",
+      "fechaActualizacion": "2024-08-17T15:30:00Z",
+      "asignadoA": "ana.lopez@tuboleta.com",
+      "etiquetas": [
+        "backend",
+        "reportes"
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Optimización de imágenes",
+      "descripcion": "Reducir tamaño de imágenes en página principal",
+      "estado": "Cerrado",
+      "prioridad": "Baja",
+      "fechaCreacion": "2024-08-18T09:00:00Z",
+      "fechaActualizacion": "2024-08-19T13:40:00Z",
+      "asignadoA": "maria.garcia@tuboleta.com",
+      "etiquetas": [
+        "frontend",
+        "performance"
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Soporte multilenguaje",
+      "descripcion": "Implementar opción de inglés y portugués",
+      "estado": "Abierto",
+      "prioridad": "Media",
+      "fechaCreacion": "2024-08-20T12:25:00Z",
+      "fechaActualizacion": "2024-08-20T12:25:00Z",
+      "asignadoA": "juan.perez@tuboleta.com",
+      "etiquetas": [
+        "frontend",
+        "UX"
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Notificaciones por correo",
+      "descripcion": "Enviar email al crear o cerrar un ticket",
+      "estado": "En Progreso",
+      "prioridad": "Alta",
+      "fechaCreacion": "2024-08-22T07:50:00Z",
+      "fechaActualizacion": "2024-08-23T16:10:00Z",
+      "asignadoA": "carlos.mendez@tuboleta.com",
+      "etiquetas": [
+        "backend",
+        "emails"
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Refactor del módulo de usuarios",
+      "descripcion": "Reorganizar código del CRUD de usuarios",
+      "estado": "Abierto",
+      "prioridad": "Media",
+      "fechaCreacion": "2024-08-25T09:35:00Z",
+      "fechaActualizacion": "2024-08-25T09:35:00Z",
+      "asignadoA": "ana.lopez@tuboleta.com",
+      "etiquetas": [
+        "backend",
+        "refactor"
+      ]
+    },
+    {
+      "titulo": "Error en login 7",
+      "descripcion": "fgtfdhgfgh editado",
+      "prioridad": "Media",
+      "estado": "En Progreso",
+      "asignadoA": "maria.garcia@tuboleta.com",
+      "etiquetas": [
+        "diseño",
+        "frontend"
+      ],
+      "fechaCreacion": "2025-08-22T19:43:03.166Z",
+      "fechaActualizacion": "2025-08-22T19:43:12.326Z",
+      "id": 9
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Juan Pérez",
+      "email": "juan.perez@tuboleta.com",
+      "rol": "Backend Developer"
+    },
+    {
+      "id": "2",
+      "nombre": "María García",
+      "email": "maria.garcia@tuboleta.com",
+      "rol": "Frontend Developer"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos Méndez",
+      "email": "carlos.mendez@tuboleta.com",
+      "rol": "Fullstack Developer"
+    },
+    {
+      "id": "4",
+      "nombre": "Ana López",
+      "email": "ana.lopez@tuboleta.com",
+      "rol": "QA Engineer"
+    },
+    {
+      "id": "5",
+      "nombre": "Pedro Sánchez",
+      "email": "pedro.sanchez@tuboleta.com",
+      "rol": "Product Owner"
+    }
+  ]
+}

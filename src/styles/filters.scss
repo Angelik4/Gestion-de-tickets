@@ -1,0 +1,50 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+  select,
+  input {
+    padding: 0.6rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    outline: none;
+    flex: 1;
+
+    &:focus {
+      border-color: #4a90e2;
+      box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+    }
+  }
+
+
+  select {
+    background: #fff;
+    cursor: pointer;
+  }
+
+  input[type="text"] {
+    flex: 2; 
+  }
+
+  @media (min-width: 768px) {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+    select,
+    input {
+      flex: unset;
+      min-width: 180px;
+    }
+
+    input[type="text"] {
+      min-width: 240px;
+    }
+  }
+}

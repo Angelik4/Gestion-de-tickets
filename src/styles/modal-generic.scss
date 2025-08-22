@@ -1,0 +1,133 @@
+$overlay-bg: rgba(0, 0, 0, 0.5);
+$modal-bg: #fff;
+$modal-radius: 10px;
+$modal-padding: 1.5rem;
+$shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+@keyframes fadeInOverlay {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOutOverlay {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes slideInModal {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes slideOutModal {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -60%) scale(0.95);
+  }
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: $overlay-bg;
+  z-index: 999; 
+
+  animation: fadeInOverlay 0.3s ease forwards;
+
+  &[data-state="closed"] {
+    animation: fadeOutOverlay 0.3s ease forwards;
+  }
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background: $modal-bg;
+  border-radius: $modal-radius;
+  padding: $modal-padding;
+  max-width: 500px;
+  width: 80%;
+  box-shadow: $shadow;
+  z-index: 1000; 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  
+  animation: slideInModal 0.35s ease forwards;
+
+  &[data-state="closed"] {
+    animation: slideOutModal 0.3s ease forwards;
+  }
+
+  .modal-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+  }
+
+  .modal-body {
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+
+    button {
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+
+      &.confirm {
+        background: #e53935;
+        color: white;
+
+        &:hover {
+          background: darken(#e53935, 10%);
+        }
+      }
+
+      &.cancel {
+        background: #f1f1f1;
+        color: #333;
+
+        &:hover {
+          background: darken(#f1f1f1, 5%);
+        }
+      }
+    }
+  }
+  .modal-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: transparent;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #666;
+    z-index: 1001; 
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
