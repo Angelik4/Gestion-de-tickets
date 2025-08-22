@@ -14,22 +14,23 @@
   - npm run start:dev
     Esto levanta la API en http://localhost:8081
 
-### Vista en funcionamiento de la aplicacion
+
 <h3 align="center">Vista en funcionamiento de la aplicación</h3>
 <p align="center">
   <img src="./images/interface-page.png" width="600" style="margin-right: 10px;" />
 </p>
+<p align="center">
+  <img src="./images/filtros.png" width="600" style="margin-right: 10px;" />
+</p>
 
-<img src="../Gestion-de-tickets/images/interface-page.png"  width="600"style="margin-right: 10px;" />
-<img src="../Gestion-de-tickets/images/filtros.png" width="auto" style="margin-left: 10px;" />
-<div style="text-align:center;">
-   <img src="../Gestion-de-tickets/images/new-tickets.png" width="400" style="margin-left: 10px;" />
-  <img src="../Gestion-de-tickets/images/details.png" width="400" style="margin-left: 10px;" />
-</div>
-<div  style="text-align:center;">
- <img src="../Gestion-de-tickets/images/modal-deleted.png" width="400" style="margin-left: 10px;" />
-  <img src="../Gestion-de-tickets/images/modal-edit.png" width="400" style="margin-left: 10px;" />
-</div>
+<p align="center">
+   <img src="./images/new-tickets.png" width="400" style="margin-left: 10px;" />
+  <img src="./images/details.png" width="400" style="margin-left: 10px;" />
+</p>
+<p align="center">
+ <img src="./images/modal-deleted.png" width="400" style="margin-left: 10px;" />
+  <img src="./images/modal-edit.png" width="400" style="margin-left: 10px;" />
+</p>
 
 
 ### Decisiones técnicas tomadas
