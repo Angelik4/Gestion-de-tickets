@@ -15,6 +15,10 @@
     Esto levanta la API en http://localhost:8081
 
 ### Vista en funcionamiento de la aplicacion
+<h3 align="center">Vista en funcionamiento de la aplicación</h3>
+<p align="center">
+  <img src="./images/interface-page.png" width="600" style="margin-right: 10px;" />
+</p>
 
 <img src="../Gestion-de-tickets/images/interface-page.png"  width="600"style="margin-right: 10px;" />
 <img src="../Gestion-de-tickets/images/filtros.png" width="auto" style="margin-left: 10px;" />
