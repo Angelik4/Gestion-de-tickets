@@ -83,7 +83,7 @@ Esto hace que en el back no se generen como bucles y errores
 
 ---
 
-### d. Experiencia previa con problemas similares
+### Experiencia previa con problemas similares
 En proyectos anteriores enfrenté escenarios parecidos:
 
 - **Portal de ofertas (Movistar)**
