@@ -14,6 +14,19 @@
   - npm run start:dev
     Esto levanta la API en http://localhost:8081
 
+### Vista en funcionamiento de la aplicacion
+
+<img src="../Gestion-de-tickets/images/interface-page.png"  width="600"style="margin-right: 10px;" />
+<img src="../Gestion-de-tickets/images/filtros.png" width="auto" style="margin-left: 10px;" />
+<div style="text-align:center;">
+   <img src="../Gestion-de-tickets/images/new-tickets.png" width="400" style="margin-left: 10px;" />
+  <img src="../Gestion-de-tickets/images/details.png" width="400" style="margin-left: 10px;" />
+</div>
+<div  style="text-align:center;">
+ <img src="../Gestion-de-tickets/images/modal-deleted.png" width="400" style="margin-left: 10px;" />
+  <img src="../Gestion-de-tickets/images/modal-edit.png" width="400" style="margin-left: 10px;" />
+</div>
+
 
 ### Decisiones técnicas tomadas
 
