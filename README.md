@@ -25,11 +25,11 @@
 
 <p align="center">
    <img src="./images/new-tickets.png" width="400" style="margin-left: 10px;" />
-  <img src="./images/details.png" width="400" style="margin-left: 10px;" />
+  <img src="./images/modal-edit.png" width="400" style="margin-left: 10px;" />
 </p>
 <p align="center">
  <img src="./images/modal-deleted.png" width="400" style="margin-left: 10px;" />
-  <img src="./images/modal-edit.png" width="400" style="margin-left: 10px;" />
+  <img src="./images/details.png" width="400" style="margin-left: 10px;" />
 </p>
 
 
