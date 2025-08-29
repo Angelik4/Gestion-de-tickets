@@ -133,31 +133,36 @@
       "id": "1",
       "nombre": "Juan Pérez",
       "email": "juan.perez@tuboleta.com",
-      "rol": "Backend Developer"
+      "rol": "Backend Developer",
+      "password": "1234"
     },
     {
       "id": "2",
       "nombre": "María García",
       "email": "maria.garcia@tuboleta.com",
-      "rol": "Frontend Developer"
+      "rol": "Frontend Developer",
+      "password": "1234"
     },
     {
       "id": "3",
       "nombre": "Carlos Méndez",
       "email": "carlos.mendez@tuboleta.com",
-      "rol": "Fullstack Developer"
+      "rol": "Fullstack Developer",
+      "password": "1234"
     },
     {
       "id": "4",
       "nombre": "Ana López",
       "email": "ana.lopez@tuboleta.com",
-      "rol": "QA Engineer"
+      "rol": "QA Engineer",
+      "password": "1234"
     },
     {
       "id": "5",
       "nombre": "Pedro Sánchez",
       "email": "pedro.sanchez@tuboleta.com",
-      "rol": "Product Owner"
+      "rol": "Product Owner",
+      "password": "1234"
     }
   ]
 }

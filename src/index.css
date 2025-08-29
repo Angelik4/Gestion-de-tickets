@@ -30,14 +30,23 @@ body {
   min-width: 320px;
   min-height: 100vh;
   justify-content: center;
+
   #root {
     width: 100%;
+
     .main-content {
       width: 94%;
       max-width: 1200px;
       margin: 0 auto;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 2rem;
+    }
   }
-  }}
+
+}
 
 h1 {
   font-size: 3.2em;
