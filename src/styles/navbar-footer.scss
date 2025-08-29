@@ -22,6 +22,13 @@ $text-light: #ffffff;
     opacity: 1;
   }
 }
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+
 
 .navbar {
   background-color: $primary-color;
@@ -38,7 +45,7 @@ $text-light: #ffffff;
   animation: slideDown 0.6s ease-out;
 
   &__logo {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     letter-spacing: 1px;
     animation: fadeIn 1s ease-in;
@@ -46,6 +53,13 @@ $text-light: #ffffff;
 
   &__highlight {
     color: $secondary-color;
+  }
+  &__btnLogin{
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
+    padding: 6px;
+    font-size: 14px;
   }
 }
 
@@ -69,6 +83,9 @@ $text-light: #ffffff;
   .navbar {
     &__logo {
       font-size: 2rem;
+    }
+    &__btnLogin{
+      bottom: 40%;
     }
   }
 
